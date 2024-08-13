@@ -1,0 +1,15 @@
+/*
+  Display a different background color for even and odd mat-tree-node elements
+*/
+$mat-table-striped-even-color: #ffffff !default;
+$mat-table-striped-odd-color: #f2f5f7 !default;
+
+.mat-table-striped {
+  .mat-row:nth-child(even) {
+    background-color: $mat-table-striped-even-color;
+  }
+
+  .mat-row:nth-child(odd) {
+    background-color: $mat-table-striped-odd-color;
+  }
+}

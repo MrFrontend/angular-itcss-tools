@@ -1,0 +1,9 @@
+@use "@angular/material" as mat;
+/**
+  CSS extension to hide the subscript of a mat-form-field
+ */
+.no-subscript {
+  .mat-mdc-form-field-subscript-wrapper {
+    display: none;
+  }
+}

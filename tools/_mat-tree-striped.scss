@@ -1,0 +1,16 @@
+/*
+  Display a different background color for even and odd mat-tree-node elements
+*/
+$mat-tree-striped-opacity: 0.04 !default;
+$mat-tree-striped-even-color: #2c2c2c !default;
+$mat-tree-striped-odd-color: #fafafa !default;
+
+.mat-tree-striped .mat-tree-node {
+  &:nth-child(even) {
+    background-color: rgba($mat-tree-striped-even-color, $mat-tree-striped-opacity);
+  }
+
+  &:nth-child(odd) {
+    background-color: rgba($mat-tree-striped-odd-color, $mat-tree-striped-opacity);
+  }
+}

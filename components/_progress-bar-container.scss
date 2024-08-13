@@ -1,0 +1,7 @@
+/**
+  Designed to wrap a mat-progress-bar and keep the height when the
+  mat-progress-bar is removed from the DOM
+ */
+.progress-bar-container {
+  min-height: 4px;
+}
