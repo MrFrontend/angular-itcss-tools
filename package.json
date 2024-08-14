@@ -1,6 +1,6 @@
 {
   "name": "@mrfrontend/angular-itcss-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ITCSS utility classes to build Angular Material applications.",
   "repository": {
     "type": "git",
